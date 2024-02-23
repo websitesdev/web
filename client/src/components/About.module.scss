@@ -3,13 +3,13 @@
 
 .main{
     background:rgb(233, 224, 224); 
-    height:50vh;
+    height:75vh;
     background-size: auto;
     overflow: hidden;
     width:100vw;
     @include breakpoint(md) {
         background:rgb(233, 224, 224); 
-        height:60vh;
+        height:70vh;
         background-size: cover;
         overflow: hidden;
         width:100%;
@@ -29,6 +29,10 @@
                 color:$primary;
                 text-shadow: 2px 2px 2px $primary;
             }
+        }
+        h3{
+            margin-top:1rem;
+            color:$text2;
         }
         button{
             font-weight: 500;

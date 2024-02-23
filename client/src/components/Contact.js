@@ -4,7 +4,7 @@ import styles from "./Contact.module.scss";
 const Contact = () => {
   return (
     <div className={styles.contact}>
-      <h1>Contact Us</h1>
+      <h1>Contact</h1>
       <form className={styles.form}>
         <label>
           Nume:
@@ -16,9 +16,10 @@ const Contact = () => {
         </label>
         <label>
           Mesaj:
-          <textarea name="postContent" rows={4} cols={40} />
+          
         </label>
-        <button type="submit">Submit</button>
+        <textarea className="textarea" name="postContent" rows={15} cols={30} />
+        <button type="submit">Trimite</button>
       </form>
     </div>
   )

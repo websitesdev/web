@@ -2,12 +2,12 @@ import React from 'react'
 import styles from "./OurService.module.scss";
 import image3 from '../images/23.jpg';
 import image4 from '../images/4.jpg';
-import image5 from '../images/5.png';
+import image5 from '../images/5.jpg';
 
 const OurService = () => {
   return (
     <div className={styles.service}>
-      <h1>Our Services</h1>
+      <h1>Servicii web</h1>
       <div className={styles.service_card}>
       <div className={styles.card}>
         <img src={image3} alt="Logo" />

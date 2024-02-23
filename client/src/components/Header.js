@@ -2,7 +2,7 @@ import React ,{useState} from 'react'
 import styles from "./Header.module.scss";
 import {BiMenuAltRight} from "react-icons/bi";
 import {AiOutlineCloseSquare} from "react-icons/ai";
-
+import logo from '../images/logo-transparent-png.png'
 const Header = () => {
 
     const[menuOpen,setMenuOpen]=useState(false);
@@ -12,7 +12,8 @@ const Header = () => {
     <div className={styles.header}>
         <div className={styles.header_content}>
             <div>
-                <span className={styles.logo}>Beauty</span>
+               
+                <img className={styles.logo} src={logo} alt="Logo" />;
             </div>
             <div>
                 <nav className={`${styles.nav} ${menuOpen ? styles[`nav--open`]:{}}`}>

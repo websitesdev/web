@@ -1,0 +1,39 @@
+@import "./../styles/variables.scss";
+
+
+.main{
+    background: linear-gradient(to right bottom,rgba(222, 178, 212, 0.587),rgba(208, 163, 198, 0.587)),url(../images/1.jpg);
+    height:90vh;
+    background-size: cover;
+    overflow: hidden;
+    .content{
+        margin:12rem;
+        h1{
+            font-size: 3rem;
+            color:$primary;
+            text-shadow: 2px 2px 2px $primary;
+        }
+        button{
+            font-weight: 500;
+            color:$primary;
+            background-color: rgb(219, 198, 233);
+            border:2px solid $primary;
+            padding:$spacing-sm $spacing-md;
+            border-radius: calc($spacing-sm/2);
+            cursor:pointer;
+            margin-top: 2rem;
+            box-shadow: 0 0 0.5em 0 $primary;
+        
+            &:active{
+                transform:scale(0.98);
+                border-radius: 0;
+            }
+            &:hover{
+                box-shadow: 0 0 0.75em 0 $primary;
+            }
+        }
+    
+        
+    }
+ 
+}

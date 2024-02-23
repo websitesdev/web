@@ -25,7 +25,8 @@ $xl:75em;
 
 
 @mixin breakpoint($point){
-    @if $point == md{
+    @if $point == md
+    {
         @media (min-width:$md){
             @content;
         }

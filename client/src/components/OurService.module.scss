@@ -2,18 +2,29 @@
 
 
 .service{
-    height: 100%;
-    margin: 3rem;
+  
+    @include breakpoint(md){
+        height: 100%;
+        margin: 3rem;
+    }
     h1{
         text-align: center;
     }
    .service_card{
+    display: flex;
+    flex-direction: column;
 
-    height:auto;
+    align-items: center;
+
+    @include breakpoint(md){
+        height:auto;
     margin:3rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
+    }
+   
     
     .card{
         margin:1rem;

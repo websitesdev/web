@@ -14,7 +14,7 @@ const AboutUS = () => {
                 <p>Navi likes to keep up-to-date with all of the latest beauty trends and technologies and is always introducing new and innovative treatments to stay at the forefront of the constantly evolving beauty world. Most importantly though we always try to keep our customers looking and feeling superb.
                     Now Navis Beautique will be renamed as Navis Beautique and Training Academy as Navi has reached another milestone and will be now providing Training in all Beauty Treatments, while still providing for all the beauty needs for her customers as normal.
                 </p>
-                <button>See prices</button>
+            
             </div>
 
         </div>

@@ -3,9 +3,17 @@
 
 .main{
     background: linear-gradient(to right bottom,rgba(222, 178, 212, 0.587),rgba(208, 163, 198, 0.587)),url(../images/1.jpg);
-    height:90vh;
-    background-size: cover;
+    height:120vh;
+    background-size: auto;
     overflow: hidden;
+    width:100vw;
+    @include breakpoint(md) {
+        background: linear-gradient(to right bottom,rgba(222, 178, 212, 0.587),rgba(208, 163, 198, 0.587)),url(../images/1.jpg);
+        height:90vh;
+        background-size: cover;
+        overflow: hidden;
+        width:100vw;
+    }
     .content{
         margin:12rem;
         h1{

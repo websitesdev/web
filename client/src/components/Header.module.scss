@@ -6,11 +6,12 @@
     color:$text2;
     position:fixed;
     z-index:1000;
-    width:100%;
+    width:100vw;
     box-shadow: 0 1px 5px $primary;
+
     
     &_content{
-        max-width: 1920px;
+ 
         margin:0 auto;
         padding:0 $spacing-md;
         @include breakpoint(md){
@@ -103,7 +104,7 @@
         display: grid;
         grid-template-columns: repeat(5,1fr);
         background: initial;
-        width:auto;
+        width:100%;
         padding:0;
 
         &_item{

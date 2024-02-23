@@ -1,9 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .main {
   background: linear-gradient(to right bottom, rgba(222, 178, 212, 0.587), rgba(208, 163, 198, 0.587)), url(../images/1.jpg);
-  height: 90vh;
-  background-size: cover;
+  height: 120vh;
+  background-size: auto;
   overflow: hidden;
+  width: 100vw;
+}
+@media (min-width: 48em) {
+  .main {
+    background: linear-gradient(to right bottom, rgba(222, 178, 212, 0.587), rgba(208, 163, 198, 0.587)), url(../images/1.jpg);
+    height: 90vh;
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+  }
 }
 .main .content {
   margin: 12rem;

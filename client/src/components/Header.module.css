@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .header {
   height: 72px;
   background: rgb(255, 255, 255);
   color: rgb(123, 31, 56);
   position: fixed;
   z-index: 1000;
-  width: 100%;
+  width: 100vw;
   box-shadow: 0 1px 5px rgb(133, 31, 73);
 }
 .header_content {
-  max-width: 1920px;
   margin: 0 auto;
   padding: 0 16px;
   transition: 0.3s ease padding;
@@ -97,7 +95,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background: initial;
-    width: auto;
+    width: 100%;
     padding: 0;
   }
   .nav_item {

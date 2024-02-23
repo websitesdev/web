@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.service {
+  height: 100%;
+  margin: 3rem;
+}
+.service h1 {
+  text-align: center;
+}
+.service .service_card {
+  height: auto;
+  margin: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.service .service_card .card {
+  margin: 1rem;
+  border: 1px solid black;
+  max-width: 350px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 0.75em 0 rgb(133, 31, 73);
+}
+.service .service_card .card img {
+  margin-left: 70px;
+  width: 120px;
+  height: 120px;
+  border-radius: 70px;
+}
+.service .service_card .card button {
+  font-weight: 500;
+  color: rgb(133, 31, 73);
+  background-color: rgb(219, 198, 233);
+  border: 2px solid rgb(133, 31, 73);
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+  box-shadow: 0 0 0.5em 0 rgb(133, 31, 73);
+  margin-left: 80px;
+}
+.service .service_card .card button:active {
+  transform: scale(0.98);
+  border-radius: 0;
+}
+.service .service_card .card button:hover {
+  box-shadow: 0 0 0.75em 0 rgb(133, 31, 73);
+}/*# sourceMappingURL=OurService.module.css.map */

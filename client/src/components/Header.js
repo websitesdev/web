@@ -13,15 +13,16 @@ const Header = () => {
         <div className={styles.header_content}>
             <div>
                
-                <img className={styles.logo} src={logo} alt="Logo" />;
+                <img className={styles.logo} src={logo} alt="Logo" />
             </div>
             <div>
                 <nav className={`${styles.nav} ${menuOpen ? styles[`nav--open`]:{}}`}>
-                    <a className={styles.nav_item} href={"/"}>Home</a>
-                    <a className={styles.nav_item} href={"/"}>About Us</a>
-                    <a className={styles.nav_item} href={"/"}>Our Service</a>
-                    <a className={styles.nav_item} href={"/"}>Testimonials</a>
-                    <a className={styles.nav_item} href={"/"}>Contact</a>
+                    <a className={styles.nav_item} href={"/"}>Acasa</a>
+                    <a className={styles.nav_item} href={"/"}>Despre</a>
+                    <a className={styles.nav_item} href={"/"}>Servicii</a>
+                    <a className={styles.nav_item} href={"/"}>Portofoliu</a>
+                    <a className={styles.nav_item} href={"/"}>Blog</a>
+            
                     <div className={styles.nav_button_container}>
                         <Button/>
                     </div>
@@ -43,7 +44,7 @@ const Header = () => {
 
 
 const Button=()=>{
-    return <button className={styles.button}>Appointment</button>;
+    return <button className={styles.button}>Contact</button>;
 }
 
 export default Header

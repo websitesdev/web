@@ -2,24 +2,33 @@
 
 
 .main{
-    background: linear-gradient(to right bottom,rgba(222, 178, 212, 0.587),rgba(208, 163, 198, 0.587)),url(../images/1.jpg);
-    height:120vh;
+    background:rgb(233, 224, 224); 
+    height:50vh;
     background-size: auto;
     overflow: hidden;
     width:100vw;
     @include breakpoint(md) {
-        background: linear-gradient(to right bottom,rgba(222, 178, 212, 0.587),rgba(208, 163, 198, 0.587)),url(../images/1.jpg);
-        height:90vh;
+        background:rgb(233, 224, 224); 
+        height:60vh;
         background-size: cover;
         overflow: hidden;
         width:100%;
     }
     .content{
-        margin:12rem;
+        margin:5rem;
+        @include breakpoint(md) {
+            margin:12rem;
+        }
         h1{
             font-size: 3rem;
             color:$primary;
             text-shadow: 2px 2px 2px $primary;
+            width: 100px;
+            @include breakpoint(md) {
+                font-size: 3rem;
+                color:$primary;
+                text-shadow: 2px 2px 2px $primary;
+            }
         }
         button{
             font-weight: 500;

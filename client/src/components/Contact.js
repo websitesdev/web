@@ -7,7 +7,7 @@ const Contact = () => {
       <h1>Contact Us</h1>
       <form className={styles.form}>
         <label>
-          Name:
+          Nume:
           <input type="text" name="name" />
         </label>
         <label>
@@ -15,8 +15,8 @@ const Contact = () => {
           <input type="text" name="name" />
         </label>
         <label>
-          Telephone:
-          <input type="text" name="name" />
+          Mesaj:
+          <textarea name="postContent" rows={4} cols={40} />
         </label>
         <button type="submit">Submit</button>
       </form>

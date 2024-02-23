@@ -75,7 +75,7 @@
 
 
 .logo{
-    width:170px;
+    width:190px;
     height: 60px;
    
 }
@@ -88,10 +88,12 @@
     background: rgba($bg2,0.8);
     text-align: center;
     padding: $spacing-md 0;
+ 
 
     &--open{
         transition:0.2s ease right;
         right:0;
+        
     }
 
     &_item{
@@ -115,12 +117,14 @@
         background: initial;
         width:100%;
         padding:0;
+      
 
         &_item{
             padding:0 $spacing-lg;
             display:flex;
             align-items: center;
             justify-content: center;
+           
         }
     }
 

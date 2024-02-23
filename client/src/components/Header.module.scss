@@ -8,10 +8,19 @@
     z-index:1000;
     width:100vw;
     box-shadow: 0 1px 5px $primary;
+    @include breakpoint(md){
+        height:$header-height;
+        background: $bg2;
+        color:$text2;
+        position:fixed;
+        z-index:1000;
+    
+        box-shadow: 0 1px 5px $primary;
+    }
 
     
     &_content{
- 
+       
         margin:0 auto;
         padding:0 $spacing-md;
         @include breakpoint(md){

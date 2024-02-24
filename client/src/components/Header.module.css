@@ -2,11 +2,21 @@
 .header {
   height: 72px;
   background: rgb(255, 255, 255);
-  color: rgb(123, 31, 56);
+  color: #80594c;
   position: fixed;
   z-index: 1000;
   width: 100vw;
-  box-shadow: 0 1px 5px rgb(133, 31, 73);
+  box-shadow: 0 1px 5px #867a74;
+}
+@media (min-width: 48em) {
+  .header {
+    height: 72px;
+    background: rgb(255, 255, 255);
+    color: #80594c;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 1px 5px #867a74;
+  }
 }
 .header_content {
   margin: 0 auto;
@@ -61,7 +71,7 @@
 }
 
 .logo {
-  width: 170px;
+  width: 190px;
   height: 60px;
 }
 
@@ -87,7 +97,7 @@
   transition: 0.3s ease color;
 }
 .nav_item:hover {
-  color: rgb(133, 31, 73);
+  color: #867a74;
 }
 @media (min-width: 48em) {
   .nav {
@@ -116,17 +126,17 @@
 
 .button {
   font-weight: 500;
-  color: rgb(133, 31, 73);
-  border: 2px solid rgb(133, 31, 73);
+  color: #867a74;
+  border: 2px solid #867a74;
   padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
-  box-shadow: 0 0 0.5em 0 rgb(133, 31, 73);
+  box-shadow: 0 0 0.5em 0 #867a74;
 }
 .button:active {
   transform: scale(0.98);
   border-radius: 0;
 }
 .button:hover {
-  box-shadow: 0 0 0.75em 0 rgb(133, 31, 73);
+  box-shadow: 0 0 0.75em 0 #867a74;
 }/*# sourceMappingURL=Header.module.css.map */

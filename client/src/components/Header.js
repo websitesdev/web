@@ -21,7 +21,7 @@ const Header = () => {
                     <a className={styles.nav_item} href={"/"}>Despre</a>
                     <a className={styles.nav_item} href={"/"}>Servicii</a>
                     <a className={styles.nav_item} href={"/"}>Portofoliu</a>
-                    <a className={styles.nav_item} href={"/"}>Blog</a>
+                    <a className={styles.nav_item} href={"/"}>+40729436992</a>
             
                     <div className={styles.nav_button_container}>
                         <Button/>

@@ -7,6 +7,11 @@
 }
 .service h1 {
   text-align: center;
+  margin: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #867a74;
+  text-shadow: 2px 2px 2px #867a74;
 }
 .service .service_card {
   display: flex;
@@ -24,12 +29,14 @@
   }
 }
 .service .service_card .card {
+  width: 320px;
+  height: 420px;
+  overflow: hidden;
   margin: 1rem;
   border: 1px solid black;
-  max-width: 350px;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 0 0.75em 0 rgb(133, 31, 73);
+  box-shadow: 0 0 0.75em 0 #867a74;
 }
 .service .service_card .card img {
   margin-left: 70px;
@@ -39,14 +46,14 @@
 }
 .service .service_card .card button {
   font-weight: 500;
-  color: rgb(133, 31, 73);
+  color: #867a74;
   background-color: rgb(219, 198, 233);
-  border: 2px solid rgb(133, 31, 73);
+  border: 2px solid #867a74;
   padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
   margin-top: 2rem;
-  box-shadow: 0 0 0.5em 0 rgb(133, 31, 73);
+  box-shadow: 0 0 0.5em 0 #867a74;
   margin-left: 80px;
 }
 .service .service_card .card button:active {
@@ -54,5 +61,5 @@
   border-radius: 0;
 }
 .service .service_card .card button:hover {
-  box-shadow: 0 0 0.75em 0 rgb(133, 31, 73);
+  box-shadow: 0 0 0.75em 0 #867a74;
 }/*# sourceMappingURL=OurService.module.css.map */

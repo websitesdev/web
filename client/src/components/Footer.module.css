@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .footer {
-  height: auto;
   color: #80594c;
   padding: 1rem 3rem;
   background: rgb(233, 224, 224);
+}
+@media (min-width: 48em) {
+  .footer {
+    color: #80594c;
+    padding: 1rem 3rem;
+    background: rgb(233, 224, 224);
+  }
 }
 .footer .footer_content {
   background: rgb(233, 224, 224);
@@ -19,7 +25,6 @@
 @media (min-width: 48em) {
   .footer {
     background: rgb(233, 224, 224);
-    height: auto;
     color: #80594c;
     display: flex;
     justify-content: space-between;

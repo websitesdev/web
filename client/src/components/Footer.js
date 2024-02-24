@@ -2,11 +2,11 @@ import React from "react";
 import styles from "./Footer.module.scss";
 import logo from "../images/logo-transparent-png.png";
 import {
-  
-   
     FaInstagram,
-  
   } from "react-icons/fa";
+
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -21,21 +21,21 @@ const Footer = () => {
         <div className={styles.center}>
           <p>Link-uri</p>
           <nav className={styles.links}>
-            <a className={styles.nav_item} href={"/"}>
+            <Link to='/' className={styles.nav_item}>
               Acasa
-            </a>
-            <a className={styles.nav_item} href={"/"}>
+            </Link>
+            <Link to='/blog' className={styles.nav_item}>
               Blog
-            </a>
-            <a className={styles.nav_item} href={"/"}>
+            </Link>
+            <Link to='/about' className={styles.nav_item}>
               Despre
-            </a>
-            <a className={styles.nav_item} href={"/"}>
+            </Link>
+            <Link to='/ourservice' className={styles.nav_item}>
               Servicii
-            </a>
-            <a className={styles.nav_item} href={"/"}>
+            </Link>
+            <Link to='/portfolio' className={styles.nav_item}>
               Portofoliu
-            </a>
+            </Link>
           </nav>
         </div>
 

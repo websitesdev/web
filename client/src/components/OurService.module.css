@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.service {
+  margin: 3rem;
+}
 @media (min-width: 48em) {
   .service {
-    height: 100%;
     margin: 3rem;
   }
 }
@@ -20,7 +22,6 @@
 }
 @media (min-width: 48em) {
   .service .service_card {
-    height: auto;
     margin: 3rem;
     display: flex;
     justify-content: space-between;
@@ -42,7 +43,7 @@
   margin-left: 70px;
   width: 120px;
   height: 120px;
-  border-radius: 70px;
+  border-radius: 10px;
 }
 .service .service_card .card button {
   font-weight: 500;

@@ -1,11 +1,18 @@
 @import "./../styles/variables.scss";
 
 .footer {
-    height: auto;
+   
 
     color: $text2;
     padding: 1rem 3rem;
     background: rgb(233, 224, 224);
+    @include breakpoint(md) {
+     
+
+    color: $text2;
+    padding: 1rem 3rem;
+    background: rgb(233, 224, 224);
+    }
 
     .footer_content {
         background: rgb(233, 224, 224);
@@ -20,7 +27,7 @@
 
     @include breakpoint(md) {
         background: rgb(233, 224, 224);
-        height: auto;
+      
         color: $text2;
         display: flex;
         justify-content: space-between;

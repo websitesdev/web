@@ -2,9 +2,11 @@
 
 
 .service{
-  
+    //height: auto;
+    margin: 3rem;
     @include breakpoint(md){
-        height: 100%;
+       
+        //height: auto;
         margin: 3rem;
     }
     h1{
@@ -22,7 +24,7 @@
     align-items: center;
 
     @include breakpoint(md){
-        height:auto;
+     
     margin:3rem;
     display: flex;
     justify-content: space-between;
@@ -47,7 +49,7 @@
             margin-left: 70px;
             width:120px;
             height:120px;
-            border-radius: 70px;
+            border-radius: 10px;
         }
    
         button{

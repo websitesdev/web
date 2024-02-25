@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Header.module.scss";
 import { BiMenuAltRight } from "react-icons/bi";
-import { AiOutlineCloseSquare } from "react-icons/ai";
+import { IoCloseOutline } from "react-icons/io5";
 import logo from "../images/logo-transparent-png.png";
 import { Link } from "react-router-dom";
 
@@ -44,7 +44,7 @@ const Header = () => {
         <div>
         
           <div className={styles.header_toggler} onClick={menuToggler}>
-            {!menuOpen ? <BiMenuAltRight /> : <AiOutlineCloseSquare />}
+            {!menuOpen ? <BiMenuAltRight /> : <IoCloseOutline/>}
           </div>
         </div>
       </div>

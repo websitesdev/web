@@ -4,13 +4,11 @@
    
 
     color: $text2;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     background: rgb(233, 224, 224);
     @include breakpoint(md) {
-     
-
     color: $text2;
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
     background: rgb(233, 224, 224);
     }
 
@@ -21,7 +19,7 @@
             background: rgb(233, 224, 224);
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            
         }
     }
 
@@ -52,6 +50,7 @@
             @include breakpoint(md) {
                 width: 200px;
                 height: 70px;
+               
             }
         }
 
@@ -60,7 +59,7 @@
             display: flex;
             justify-content: space-around;
             flex-direction: column;
-            width: 300px;
+            width: 200px;
         }
     }
 
@@ -72,8 +71,8 @@
             display: flex;
             justify-content: space-around;
             flex-direction: column;
-            width: 500px;
-            margin-left: 20rem;
+            width: 200px;
+            margin-left:400px;
 
         }
 
@@ -104,6 +103,8 @@
             display: flex;
             justify-content: space-around;
             flex-direction: column;
+            margin-left:300px;
+        
         }
 
         .links {

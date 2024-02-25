@@ -12,7 +12,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.footer_content}>
         <div className={styles.left}>
-          <img className={styles.logo} src={logo} alt="Logo" />
+          <img className={styles.logo} src={logo} alt="Site web pentru prezentare firme, portofoliu si blog" />
           <p>
             Ne angajăm să creăm spații digitale captivante care rezonează cu
             publicul tău.
@@ -27,7 +27,7 @@ const Footer = () => {
             <Link to='/blog' className={styles.nav_item}>
               Blog
             </Link>
-            <Link to='/about' className={styles.nav_item}>
+            <Link to='/aboutus' className={styles.nav_item} id="aboutus">
               Despre
             </Link>
             <Link to='/ourservice' className={styles.nav_item}>

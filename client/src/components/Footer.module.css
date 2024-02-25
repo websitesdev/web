@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .footer {
   color: #80594c;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   background: rgb(233, 224, 224);
 }
 @media (min-width: 48em) {
   .footer {
     color: #80594c;
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
     background: rgb(233, 224, 224);
   }
 }
@@ -19,7 +19,6 @@
     background: rgb(233, 224, 224);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
   }
 }
 @media (min-width: 48em) {
@@ -54,7 +53,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 300px;
+    width: 200px;
   }
 }
 @media (min-width: 48em) {
@@ -63,8 +62,8 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 500px;
-    margin-left: 20rem;
+    width: 200px;
+    margin-left: 400px;
   }
 }
 .footer .center .links {
@@ -88,6 +87,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin-left: 300px;
   }
 }
 .footer .right .links {

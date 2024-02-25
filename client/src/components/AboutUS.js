@@ -6,7 +6,7 @@ const AboutUS = () => {
     return (
         <div className={styles.about_us}>
             <div className={styles.about_left}>
-                <img src={image2} alt="Logo" />
+                <img src={image2} alt="Creare website pentru firme din diverse domenii, realizare portofoliu, creare landing page si blog" />
 
             </div>
             <div className={styles.about_right}>

@@ -13,40 +13,36 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.header_content}>
         <div>
-          <img className={styles.logo} src={logo} alt="Logo" />
+          <img className={styles.logo} src={logo} alt="Creare web site pentru firme, portofoliu personal, website prezentare si blog" />
         </div>
         <div>
           <nav
             className={`${styles.nav} ${menuOpen ? styles[`nav--open`] : {}}`}
           >
-            <Link to="/" className={styles.nav_item}>
+            <Link to="/" className={styles.nav_item} id="homepage">
               Acasa
             </Link>
-            <Link to="/aboutus" className={styles.nav_item}>
+            <Link to="/aboutus" className={styles.nav_item} id="aboutus">
               Despre
             </Link>
-            <Link to="/ourservice" className={styles.nav_item}>
+            <Link to="/ourservice" className={styles.nav_item} id="servicii">
               Servicii
             </Link>
-            <Link to="/portfolio" className={styles.nav_item}>
+            <Link to="/portfolio" className={styles.nav_item} id="portofoliu">
               Portofoliu
             </Link>
-            <Link to="/" className={styles.nav_item}>
+            <a href="+40729436992" className={styles.nav_item}>
               +40729436992
-            </Link>
-          
-            <div className={styles.nav_button_container}>
-              <Button />
-        
-            </div>
-
-         
+            </a>
+            <Link to="/contact">
+            <Button className={styles.header_button_container} />
+          </Link>
           </nav>
+           
+      
         </div>
         <div>
-          <div className={styles.header_button_container}>
-            <Button />
-          </div>
+        
           <div className={styles.header_toggler} onClick={menuToggler}>
             {!menuOpen ? <BiMenuAltRight /> : <AiOutlineCloseSquare />}
           </div>
